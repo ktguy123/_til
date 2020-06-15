@@ -25,13 +25,13 @@ Nodeクックブック 9章 (O’REILLY)
 
 以下の通り
 
-> module_name/
-> 　├ lib/
-> 　│　└ [index].js
-> 　├ test/　
-> 　│　└ [index].js
-> 　├ examples/
-> 　└ index.js 
+> module_name/   
+> 　├ lib/  
+> 　│　└ [index].js  
+> 　├ test/  
+> 　│　└ [index].js  
+> 　├ examples/  
+> 　└ index.js  
 
 | ファイル、ディレクトリ名 | 内容                                                         |
 | ------------------------ | ------------------------------------------------------------ |
