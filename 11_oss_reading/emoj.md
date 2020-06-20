@@ -22,20 +22,20 @@ Open Sourceにはどのような技術が使われ、どのように構成され
 
 ### ディレクトリ構造
 > emoj/  
-> 　├ .github/ (githubの設定ファイルを格納) 
-> 　│　└ funding.yml （sponserdの設定ファイル） 
-> 　├ **.editorconfig (editorの設定ファイル)** 
-> 　├ .gitattributes (gitの設定ファイル) 
-> 　├ **.gitignore (gitの無視設定をおこなうファイル)** 
-> 　├ .npmrc (npmの設定ファイル)
-> 　├ **.travis.yml (TravisCIの設定ファイル) ** 
-> 　├ cli.js  
-> 　├ index.js 
-> 　├ **LICEENSE (ライセンス)**
-> 　├ **package.json** 
-> 　├ **readme.md ** 
-> 　├ **test.js （テスト）** 
-> 　└ ui.js  
+> 　├ .github/ (githubの設定ファイルを格納)  
+> 　│　└ funding.yml （sponserdの設定ファイル）  
+> 　├ **.editorconfig (editorの設定ファイル)**  
+> 　├ .gitattributes (gitの設定ファイル)   
+> 　├ **.gitignore (gitの無視設定をおこなうファイル)**  
+> 　├ .npmrc (npmの設定ファイル)  
+> 　├ **.travis.yml (TravisCIの設定ファイル)**  
+> 　├ cli.js    
+> 　├ index.js   
+> 　├ **LICEENSE (ライセンス)**  
+> 　├ **package.json**  
+> 　├ **readme.md**  
+> 　├ **test.js （テスト）**  
+> 　└ ui.js    
 >
 > ※ 太字はexpressjsにも含まれていた（名称は異なる）もの 
 * スクリプト本体とpackage.jsonのほかに以下のものは**必須**のようだ 
