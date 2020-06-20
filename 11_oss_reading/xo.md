@@ -44,7 +44,7 @@ langage : JavaScript
 
 ### 1.2 プログラム依存関係
 
-![apng](./a .drawio.png)
+![xo](./media/xo.drawio.png)
 
 ## 2. 設定ファイル詳解
 
