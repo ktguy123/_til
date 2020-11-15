@@ -14,8 +14,8 @@
 
 ## Overview
 
-project : https://github.com/gothinkster/node-express-realworld-example-app
-langage : JavaScript
+project : https://github.com/gothinkster/node-express-realworld-example-app  
+langage : JavaScript  
 
 1. 構造
 1. ファイル詳解
@@ -76,6 +76,8 @@ Expressサーバーを定義し、mongooseを使用してMongoDBに接続する
 
 クライアントに供給する一般的なアセットに応じた構成 (images, css, jsなど)
 
+404.html, 500.htmlなどを用意しエラー時の出力などを行う。
+
 ※ .keep ファイルはgit出からディレクトリを管理対象に含めるために作成
 
 #### /model
@@ -102,4 +104,25 @@ APIのルート定義
 ​	`.circleci/config.yml`に記載する。
 
 [^※1]:https://circleci.com/docs/ja/2.0/getting-started/
+
+
+
+## 3. 認証関連
+
+### 3-1. 構成
+
+./models/User.js
+
+* passwordはcroptoを使用して暗号化＋ハッシュ化してDBに保管する(setPasword())
+  * 暗号化はsha512で行っている（検討事項）
+* 認証トークンの発行、配布の定義もここでしている (geterateJWT(), toAuthJSON())
+
+
+
+### 3-2. まとめ
+
+* トークン規格はJWTが一般的
+* passwordはそのままDBで管理せず暗号＋ハッシュ化しなくてはいけない
+
+
 
